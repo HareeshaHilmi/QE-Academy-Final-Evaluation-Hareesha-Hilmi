@@ -1,7 +1,7 @@
-id: ueogx9ECWkmM1-zUjGY3bQ
+id: 0Jl-YZnU8U-PsnxTWNl9fg
 projectId: qYeSlRZnUU-geifWO5FuyA
 projectName: QE Final Evaluation - Hareesha Hilmi
-created: 2022-11-05T19:35:11.6809147Z
+created: 2022-11-05T20:05:08.1964033Z
 protocol: 1
 tests:
 - id: LJovOyAASEmel-hmfkN3-w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-05T03:42:00.0000000
-  modificationDate: 2022-11-05T05:20:45.0000000
+  modificationDate: 2022-11-05T20:03:51.0000000
   settings:
     automationAssistant: true
     appId: _Z3d0qo-lESjIHPQzEHNOg
@@ -726,6 +726,73 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: fYDw2LVcgECtOQJEPIMpag
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: iNWYCdvWS02uPo69ebFI4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nlM1iwsPaU2iZGqpI4Q8IQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: iNWYCdvWS02uPo69ebFI4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dDm8Xgpw_0Sqz1sluaUWtg
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -940,25 +1007,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[7]/div/span/input
     priority: 3
-- id: NvVHRVYJwUKMXO1CE8aDyw
-  name: optin
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#optin'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='optin']"
-    priority: 1
-  - name: XPATH
-    value: //div[8]//input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[8]/div/span/input
-    priority: 3
 - id: jzHM2F5Kl0GAOOHt2OK_qQ
   name: address1
   type:
@@ -1105,7 +1153,58 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a
     priority: 2
-projectParameters: []
+- id: NvVHRVYJwUKMXO1CE8aDyw
+  name: optin
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#optin'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='optin']"
+    priority: 1
+  - name: XPATH
+    value: //div[8]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[8]/div/span/input
+    priority: 3
+projectParameters:
+- id: CR77XUL940GKghHUcQtPyw
+  name: CustomerEmail
+  description: ''
+  value: qsHRTATSIU@gmail.com
+- id: 5hE1ouaYWUm80KB_gMecRg
+  name: CustomerFirstName
+  description: ''
+  value: Stafford Reed
+- id: GtkIhS0eqE6NODYTTlUicg
+  name: CustomerLastName
+  description: ''
+  value: Simona Schild
+- id: CLSBpNuqWEajzJ_yEL21pw
+  name: CustomerPassword
+  description: ''
+  value: Nj=/CkL6
+- id: iyuLGZoKukebYfipB3Zxmw
+  name: CustomerAddress
+  description: ''
+  value: Suicheng
+- id: jXqKKe094Ey3sw7jQP-G5g
+  name: CustomerCity
+  description: ''
+  value: Nashville
+- id: YQJTuYFza0GCLEbGeBT6Kg
+  name: ZipPostalCode
+  description: ''
+  value: 74472
+- id: BOSWNUPplESXaHixNrYXwQ
+  name: CustomerMobilePhone
+  description: ''
+  value: +93704607382
 addons:
 - id: uhFWuHjwpU-gl6uzWR5TXA
   source: Store
@@ -1124,6 +1223,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 2734086EE7603B0D1D9D39A270CDB5C500EFF26E65A973871279B1B529E0299C
+- id: hbCjXt9A1EOt4rfQr3FEtw
+  source: Store
+  version: 1.1
+  actions:
+  - id: btvC-oYNPkazg7REct5RWA
+    name: Generate random phone number
+    description: Generate phone number in {{country}}
+    className: io.testproject.RandomNumber
+  minSdkLevel: 2
+  minSdkVersion: 0.62.0
+  sdkGeneration: 1
+  language: Java
+  hash: B05E61D61CD67CF57364977301D8ABCA57628EC2C2DACB215F8DB80C79DD931A
 - id: -kT4Fi1xFk6PF8xkHU4vDg
   source: Store
   version: 2.2
@@ -1149,10 +1261,6 @@ addons:
   source: Store
   version: 0.14
   actions:
-  - id: W88GyL29kkWzE23nWOZc7Q
-    name: Click On an list item with a specific text
-    description: Clicks on a list item based on text
-    className: Actions.ClickOnListItemWhichContainsText
   - id: jZRryO2ev0Sl1Bfo7qxjFA
     name: Click a random item on the list
     description: Clicks a random value on the list
@@ -1162,16 +1270,3 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 19104BCF9DF95CE68B689F0C66B05303FBDD596317EE8CFD6E88E4C24CE05CBE
-- id: hbCjXt9A1EOt4rfQr3FEtw
-  source: Store
-  version: 1.1
-  actions:
-  - id: btvC-oYNPkazg7REct5RWA
-    name: Generate random phone number
-    description: Generate phone number in {{country}}
-    className: io.testproject.RandomNumber
-  minSdkLevel: 2
-  minSdkVersion: 0.62.0
-  sdkGeneration: 1
-  language: Java
-  hash: B05E61D61CD67CF57364977301D8ABCA57628EC2C2DACB215F8DB80C79DD931A
