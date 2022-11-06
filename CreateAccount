@@ -1,7 +1,7 @@
-id: 0Jl-YZnU8U-PsnxTWNl9fg
+id: UkrLdAFYkk-BYrJyOEP4Tw
 projectId: qYeSlRZnUU-geifWO5FuyA
 projectName: QE Final Evaluation - Hareesha Hilmi
-created: 2022-11-05T20:05:08.1964033Z
+created: 2022-11-06T03:43:14.9694925Z
 protocol: 1
 tests:
 - id: LJovOyAASEmel-hmfkN3-w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-05T03:42:00.0000000
-  modificationDate: 2022-11-05T20:03:51.0000000
+  modificationDate: 2022-11-06T03:42:51.0000000
   settings:
     automationAssistant: true
     appId: _Z3d0qo-lESjIHPQzEHNOg
@@ -726,77 +726,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: fYDw2LVcgECtOQJEPIMpag
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 30
-    repeat: 1
-    type: Action
-    elementId: iNWYCdvWS02uPo69ebFI4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: nlM1iwsPaU2iZGqpI4Q8IQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 31
-    repeat: 1
-    type: Action
-    elementId: iNWYCdvWS02uPo69ebFI4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: dDm8Xgpw_0Sqz1sluaUWtg
-    enabled: true
-    invertResult: false
-    order: 32
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: 300
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: http://automationpractice.com/index.php
+    type: Input
+  - name: DropDownValue
+    description: ''
+    value: '-'
     type: Input
 auxTests: []
 elements:
