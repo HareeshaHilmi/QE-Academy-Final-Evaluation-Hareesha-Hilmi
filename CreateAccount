@@ -1,7 +1,7 @@
-id: UkrLdAFYkk-BYrJyOEP4Tw
+id: P2fz-djsEkeQMERlbEHb2g
 projectId: qYeSlRZnUU-geifWO5FuyA
 projectName: QE Final Evaluation - Hareesha Hilmi
-created: 2022-11-06T03:43:14.9694925Z
+created: 2022-11-06T03:46:46.2961815Z
 protocol: 1
 tests:
 - id: LJovOyAASEmel-hmfkN3-w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-05T03:42:00.0000000
-  modificationDate: 2022-11-06T03:42:51.0000000
+  modificationDate: 2022-11-06T03:46:43.0000000
   settings:
     automationAssistant: true
     appId: _Z3d0qo-lESjIHPQzEHNOg
@@ -731,10 +731,6 @@ tests:
     description: Auto generated application URL parameter
     value: http://automationpractice.com/index.php
     type: Input
-  - name: DropDownValue
-    description: ''
-    value: '-'
-    type: Input
 auxTests: []
 elements:
 - id: TOckIvMz6kuZ8SMJ9QIbSA
@@ -1113,35 +1109,35 @@ projectParameters:
 - id: CR77XUL940GKghHUcQtPyw
   name: CustomerEmail
   description: ''
-  value: qsHRTATSIU@gmail.com
+  value: lMfBbwMmsJ@gmail.com
 - id: 5hE1ouaYWUm80KB_gMecRg
   name: CustomerFirstName
   description: ''
-  value: Stafford Reed
+  value: Mickie Wallington
 - id: GtkIhS0eqE6NODYTTlUicg
   name: CustomerLastName
   description: ''
-  value: Simona Schild
+  value: Abagail Pankhurst
 - id: CLSBpNuqWEajzJ_yEL21pw
   name: CustomerPassword
   description: ''
-  value: Nj=/CkL6
+  value: LJ3,zy00
 - id: iyuLGZoKukebYfipB3Zxmw
   name: CustomerAddress
   description: ''
-  value: Suicheng
+  value: Mwanza
 - id: jXqKKe094Ey3sw7jQP-G5g
   name: CustomerCity
   description: ''
-  value: Nashville
+  value: Ezza-Ohu
 - id: YQJTuYFza0GCLEbGeBT6Kg
   name: ZipPostalCode
   description: ''
-  value: 74472
+  value: 13570
 - id: BOSWNUPplESXaHixNrYXwQ
   name: CustomerMobilePhone
   description: ''
-  value: +93704607382
+  value: +93706484033
 addons:
 - id: uhFWuHjwpU-gl6uzWR5TXA
   source: Store
